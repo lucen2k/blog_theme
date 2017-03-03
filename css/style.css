@@ -51,7 +51,7 @@ body {
 
 .main-page {
 	position: relative;
-	margin-top: 80px;
+	margin-top: 10px;
 }
 
 /*http://stackoverflow.com/questions/16034397/css-calc-alternative*/
@@ -958,4 +958,29 @@ textarea.form-control {	height:135px; }
 
 	.gallery_title h3 { font-size: 40px; }
 	.gallery_title h4 { font-size: 18px; }
+}
+
+ul.mobile-nav {
+	margin-left: 3px;
+	padding: 12px;
+}
+ul.mobile-nav li {
+	display: inline-block;
+	background-color: rgba(255,215,0,0.8);
+	padding: 10px;
+	color: #fff;
+	width: 24%;
+	text-align: center;
+}
+ul.mobile-nav li a {
+	color: #fff;
+	text-decoration: none;
+}
+ul.mobile-nav li.about {
+	display: inline-block;
+	background-color: rgba(255,69,0,0.8);
+	padding: 10px;
+	color: #fff;
+	width: 24%;
+	text-align: center;
 }
